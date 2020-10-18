@@ -26,8 +26,8 @@ module.exports = {
         new HtmlWebpackPlugin(
             {
                 inject:true,
-                template: './public/index.html',
-                filename: './index.html'
+                template: 'index.html',
+                filename: 'index.html'
             }
         ),
         new CopyWebpackPlugin({
